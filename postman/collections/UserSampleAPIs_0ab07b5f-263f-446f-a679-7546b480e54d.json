@@ -168,6 +168,10 @@
 							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
 							"});",
 							"",
+							"pm.test(\"Content-Type is present\", function () {",
+							"    pm.response.to.have.header(\"Content-Type\");",
+							"});",
+							"",
 							""
 						],
 						"type": "text/javascript"
@@ -328,7 +332,7 @@
 	],
 	"variable": [
 		{
-			"id": "d8fb1df5-2eb9-418b-976a-1f446e6eb08b",
+			"id": "bfd47871-d3f4-4618-ad89-d024f7be9f6b",
 			"key": "url",
 			"value": "https://reqres.in",
 			"type": "string"
