@@ -39,9 +39,9 @@
 					}
 				],
 				"url": {
-					"raw": "{{url}}/api/users",
+					"raw": "{{URI}}/api/users",
 					"host": [
-						"{{url}}"
+						"{{URI}}"
 					],
 					"path": [
 						"api",
@@ -179,7 +179,7 @@
 	],
 	"variable": [
 		{
-			"id": "a2de24fb-045c-460a-b6e0-fa62fe768536",
+			"id": "d152bbdd-e09a-4fe3-9334-c1d5d30575da",
 			"key": "url",
 			"value": "https://reqres.in",
 			"type": "string"
