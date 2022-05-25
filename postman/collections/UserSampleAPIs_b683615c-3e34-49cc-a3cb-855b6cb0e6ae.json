@@ -167,9 +167,8 @@
 							"pm.test(\"Successful POST request\", function () {",
 							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
 							"});",
-							"pm.test(\"Content-Type is present\", function () {",
-							"    pm.response.to.have.header(\"Content-Type\");",
-							"});"
+							"",
+							""
 						],
 						"type": "text/javascript"
 					}
@@ -329,7 +328,7 @@
 	],
 	"variable": [
 		{
-			"id": "ea8fa0c9-8c55-4b77-b9d0-f2ce94d649dc",
+			"id": "7c30af53-8397-465f-aca2-4e0cc38df69f",
 			"key": "url",
 			"value": "https://reqres.in",
 			"type": "string"
